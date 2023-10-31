@@ -1,0 +1,59 @@
+.container{
+    margin:  5px 150px;
+    border: 2px rgb(214, 11, 11) solid;
+    border-radius: 8px;
+}
+
+.title{
+    display: block;
+    margin: 20px;
+}
+
+.title h1,h2, h3{
+    justify-content: center;
+    margin: 5px;
+    display: flex;
+}
+
+#form {
+    margin: 0 150px;
+    align-items: center;
+    
+}
+
+.msg {
+    margin: 20px auto;
+    font-size: large;
+}
+
+#form textarea,button{
+    display: flex;
+    margin: 20px auto;
+}
+
+#expr {
+    width: 80%;
+    height: 200px;
+    font-family: monospace;
+    font-size: large;
+}
+
+#responsContainer{
+    margin: 10px;
+}
+
+.responsTable{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: large;
+}
+
+.responsTable p{
+    margin: 10px 0;
+}
+
+.responsTable i{
+    margin: auto 20px;
+    display: none;
+}
