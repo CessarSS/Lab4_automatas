@@ -1,4 +1,4 @@
-// Definición de tokens y expresiones regulares
+// Definición de tokens y expresiones regulares.
 const tokenRegex = /^(cuara|peso|dólar)$/i;  // La 'i' hace que sea insensible a mayúsculas/minúsculas
 const amountRegex = /^(0\.25|0\.50|1\.00)$/;
 
